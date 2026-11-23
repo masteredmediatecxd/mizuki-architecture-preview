@@ -1,0 +1,45 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+credentials.*
+
+# Runtime data and personal material
+Data/
+data/
+memory/
+Logs/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.wav
+*.mp3
+*.mp4
+*.png
+*.jpg
+*.jpeg
+
+# Local models and build outputs
+models/
+*.gguf
+*.safetensors
+*.onnx
+dist/
+build/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and OS noise
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
